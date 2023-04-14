@@ -2,13 +2,11 @@
   "name": "nx-grill",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
-  },
+  "scripts": {},
   "private": true,
-  "dependencies": {
-  },
   "devDependencies": {
-    "nx": "15.9.2",
-    "@nrwl/workspace": "15.9.2"
+    "@nrwl/angular": "^15.9.2",
+    "@nrwl/workspace": "15.9.2",
+    "nx": "15.9.2"
   }
 }
