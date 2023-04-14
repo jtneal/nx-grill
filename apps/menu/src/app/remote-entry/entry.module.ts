@@ -7,6 +7,7 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 import { remoteRoutes } from './entry.routes';
 import { BreakfastComponent } from './breakfast/breakfast/breakfast.component';
 import { LunchComponent } from './lunch/lunch/lunch.component';
+import { DinnerComponent } from './dinner/dinner/dinner.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { LunchComponent } from './lunch/lunch/lunch.component';
     NxWelcomeComponent,
     BreakfastComponent,
     LunchComponent,
+    DinnerComponent,
   ],
   imports: [CommonModule, RouterModule.forChild(remoteRoutes)],
   providers: [],
